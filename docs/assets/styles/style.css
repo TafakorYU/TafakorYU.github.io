@@ -26,8 +26,18 @@ body {
   margin: 0 auto;
   font-family: var(--font-sans);
 }
+.page-header {
+  margin: auto;
+  align-items: center;
+}
 h1 {
   font-family: var(--font-sans);
+  text-align: center;
+}
+p {
+  font-family: var(--font-sans);
+  font-size: 1.2rem;
+  text-align: center;
 }
 @media (min-width: 600px) {
   .page-content {
